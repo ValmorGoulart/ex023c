@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Desafio 13-01</title>
+        <style>
+            body{
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 1.2em;
+            }
+            table{
+                border-collapse: collapse;
+                width: 400px;
+                text-align: center;
+            }
+            td{
+                border: 1px solid #95a2a8;
+                padding: 10px;
+            }
+            .bg1{
+                background-image: linear-gradient(to bottom, #d5f6f8, #f5d6d8);
+            }
+            .bg2{
+                background-image: linear-gradient(to right, #f5d5d8, #f5f6d8);
+            }
+            .bg3{
+                background-image: linear-gradient(to right, #d5f6f8, #f5f6d8);
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Desafio 13-01</h1>
+        <table>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td rowspan="2" class="bg1">3</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>6</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <td colspan="3" class="bg2">8</td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <td rowspan="2" class="bg1">10</td>
+                <td colspan="2" class="bg3">11</td>
+                <td>12</td>
+            </tr>
+            <tr>
+                <td>13</td>
+                <td>14</td>
+                <td>15</td>
+            </tr>
+        </table>
+    </body>
+</html>
