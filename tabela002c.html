@@ -14,6 +14,7 @@
                 background-color: #f5f6d8;
                 width: 450px;
                 padding: 5px;
+                position: relative;
             }
             th{
                 border: 1px solid #95a2a8;
@@ -26,6 +27,11 @@
             }            
             td.num{
                 text-align: right;           
+            }
+            thead > tr > th{
+                position: sticky;
+                top: -1px;
+                background-color: #d5f6f8;
             }
             tbody > tr:nth-child(2n){
                 background-color: #e9e8f8;
