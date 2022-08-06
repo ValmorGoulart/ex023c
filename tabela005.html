@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Exercício de Tabelas</title>
+        <style>
+            body{
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 1.3em;
+            }
+            table{
+                width: 480px;
+                border-collapse: collapse;
+            }
+            th, td, caption{
+                border: 1px solid #95a2a8;
+                padding: 10px 0px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Exercício de Tabelas</h1>
+        <table>
+            <colgroup>
+                <col class="cnome">
+                <col class="cgrupo" span="2">
+                <col class="cprof">
+            </colgroup>
+            <caption>Cadastro</caption>
+            <tr>
+                <th>Nome</th>
+                <th>Sexo</th>
+                <th>Idade</th>
+                <th>Profissão</th>
+            </tr>
+        </table>
+    </body>
+</html>
